@@ -1,0 +1,51 @@
+// Custom css for page
+// Custom sidebar
+.c-sidebar .c-sidebar-nav-link:hover, .c-sidebar .c-sidebar-nav-dropdown-toggle:hover{
+    background-color: #0e264e;
+}
+.c-sidebar.c-sidebar-minimized .c-sidebar-nav-item:hover > .c-sidebar-nav-link, .c-sidebar.c-sidebar-minimized .c-sidebar-nav-item:hover > .c-sidebar-nav-dropdown-toggle{
+    background-color: #0e264e;
+}
+//Custom header
+.dropdown-menu{
+    padding: 0;
+}
+
+//Custom common page
+.bg-w{
+    background-color: white;
+    border-radius: 5px;
+}
+.img-fix-widgets{
+    height: 140px;
+}
+.img-fix-widgets-sm{
+    height: 100px;
+    margin-top: 39.5px;
+}
+.gd-pink{
+    background: linear-gradient(90deg,#ffbf96,#fe7096);
+}
+.gd-blue{
+    background: linear-gradient(90deg,#90caf9,#047edf 99%);
+}
+.gd-green{
+    background: linear-gradient(90deg,#84d9d2,#07cdae);
+}
+.gd-black{
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+}
+
+// Custom phân trang table
+.page-item.active .page-link{
+    background-color: #39f;
+    border-color: #39f;
+}
+label{
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+.table th, .table td{
+    vertical-align: middle;
+}
