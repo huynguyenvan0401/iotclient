@@ -6,9 +6,9 @@ import {
   LOGOUT,
   SET_MESSAGE,
   CLEAR_MESSAGE,
-} from "./types";
+} from './types';
 
-import * as authService from "../services/auth.service";
+import * as authService from '../services/auth.service';
 
 export const register = (username, email, password) => async (dispatch) => {
   try {
