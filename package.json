@@ -2,10 +2,7 @@
   "name": "smarthome",
   "version": "1.0.0",
   "description": "IOT Team 8",
-  "author": {
-    "name": "IOT Team 8"
-  },
-  "homepage": ".",
+  "author": "IoT Team 8",
   "copyright": "Copyright 2017-2020 iot 8",
   "license": "ISC",
   "private": true,
@@ -47,8 +44,6 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:cov": "npm test -- --coverage --watchAll=false",
-    "test:debug": "react-scripts --inspect-brk test --runInBand",
     "eject": "react-scripts eject"
   },
   "browserslist": [
