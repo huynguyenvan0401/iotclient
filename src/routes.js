@@ -1,6 +1,5 @@
 import React from 'react';
 
-const Tables = React.lazy(() => import('./views/table/Tables'));
 //Định nghĩa nguồn trang
 const Monitor = React.lazy(() => import('./views/monitor/Monitor'));
 const Room = React.lazy(() => import('./views/room/ListRoom'));
